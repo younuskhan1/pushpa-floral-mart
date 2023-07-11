@@ -200,3 +200,40 @@ body {
 }
 
 /* <!-- hot deal section css part is ended --> */
+/* <!-- instagram section css part is started --> */
+.instagram-section {
+    margin-top: 70px;
+    height: 300px;
+}
+
+.instagram-heading,
+.instagram-para {
+    text-align: center;
+}
+
+.instagram-heading {
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+
+.instagram-images {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    padding-top: 35px;
+    justify-content: center;
+
+}
+
+.instagram-div {
+    width: 230px;
+    height: 260px;
+}
+
+.instagram-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* <!-- instagram section css part is ended --> */
