@@ -60,6 +60,10 @@ body {
 
 /* header section css part is ended */
 /* feature section css part is started */
+.feature-section {
+    margin-bottom: 40px;
+}
+
 .feature-section-text {
     width: 50%;
     display: flex;
@@ -117,11 +121,31 @@ body {
 /* feature section css part is ended */
 /* optional section css part is started */
 .optional-section {
-    margin-top: 50px;
-    height: 250px;
+    height: 200px;
     width: 73%;
-    /* margin: auto; */
-    background-color: silver;
+    margin: 0px auto;
+    background-color: rgb(235, 228, 228);
+    border-radius: 5px;
+}
+
+.optional-image-part {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.optional-div {
+    display: block;
+    text-align: center;
 }
 
 /* optional section css part is ended */
+/* <!-- hot deal section css part is started --> */
+.hotdeal-section {
+    background-color: antiquewhite;
+}
+
+/* <!-- hot deal section css part is ended --> */
