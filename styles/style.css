@@ -203,7 +203,7 @@ body {
 /* <!-- instagram section css part is started --> */
 .instagram-section {
     margin-top: 70px;
-    height: 300px;
+    height: 450px;
 }
 
 .instagram-heading,
@@ -237,3 +237,90 @@ body {
 }
 
 /* <!-- instagram section css part is ended --> */
+/* <!-- latest deal section css part is started --> */
+.latest-deal-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.latest-deal {
+    width: 75%;
+    height: 300px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-heading {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.latest-para {
+    font-size: 15px;
+}
+
+.Subscription {
+    background-color: mediumvioletred;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+input {
+    padding: 13px 28px;
+    border-radius: 5px;
+    border: 0px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* <!-- latest deal section css part is ended --> */
+/* <!--  footer section css part is started --> */
+.footer-section {
+    height: 320px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-text {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading,
+.footer-para,
+.copy-right {
+    color: white;
+    text-align: center;
+}
+
+.footer-para,
+.copy-right {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.partial-heading {
+    color: mediumvioletred;
+}
+
+/* <!-- footer section css part is ended --> */
