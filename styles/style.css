@@ -146,6 +146,57 @@ body {
 /* <!-- hot deal section css part is started --> */
 .hotdeal-section {
     background-color: antiquewhite;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.hotdeal-all-part {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hotdeal-image {
+    height: 300px;
+    width: 200px;
+}
+
+.hotdeal-text-part {
+    width: 60%;
+    text-align: center;
+}
+
+.hotdeal-image-part {
+    width: 40%;
+}
+
+.hotdeal-paragraph {
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+.hotdeal-sub-heading {
+    color: mediumvioletred;
+}
+
+.hotdeal-heading {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.hotdeal-button {
+    background-color: mediumvioletred;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 700;
 }
 
 /* <!-- hot deal section css part is ended --> */
