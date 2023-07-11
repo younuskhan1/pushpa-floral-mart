@@ -3,7 +3,57 @@
     padding: 0px;
 }
 
+/* common google fonts shered all */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* header ralated css */
-p {
-    color: red;
+
+.header-section {
+    background-color: antiquewhite;
+    height: 500px;
+
+}
+
+.header-assets {
+    display: flex;
+}
+
+.header-image {
+    width: 350px;
+    height: 450px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+
+}
+
+.header-text-part {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.header-image-part {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-heading {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.header-button {
+    background-color: mediumvioletred;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    font-weight: 700;
 }
